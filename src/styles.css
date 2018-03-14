@@ -1,8 +1,19 @@
 body {
-  background-color: darksalmon;
+  background-color: mediumseagreen;
 }
 
 .jumbotron {
   text-align: center;
   background-color: #4286f4;
+  border-radius: 80px;
+  margin-top: 20px;
+}
+
+.jumbotron h1 {
+  font-size: 75px;
+  font-family: "papyrus";
+}
+
+.form-control {
+  background-color: gainsboro;
 }

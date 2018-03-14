@@ -1,32 +1,35 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Haiku Checker</title>
-  </head>
-  <body>
-    <div class="container">
-      <div class="jumbotron">
-        <h1>Enter A Haiku</h1>
-      </div>
-      <form id="checker-form" class="">
-        <div class="form-group">
-          <label for="lineOne"></label>
-          <input class="form-control" id="lineOne" type="text" name="lineOne" value="">
-        </div>
-        <div class="form-group">
-          <label for="lineTwo"></label>
-          <input class="form-control" id="lineTwo" type="text" name="lineTwo" value="">
-        </div>
-        <div class="form-group">
-          <label for="lineThree"></label>
-          <input class="form-control" id="lineThree" type="text" name="lineThree" value="">
-        </div>
-        <button class="btn btn-primary" type="submit" name="button">Check My Haiku</button>
-      </form>
-      <br>
-      <div id="results">
-      </div>
+<head>
+  <meta charset="utf-8">
+  <title>Haiku Checker</title>
+</head>
+<body>
+  <div class="container">
+    <div class="jumbotron">
+      <h1>Enter A Haiku</h1>
     </div>
-  </body>
+    <form id="checker-form">
+
+      <div class="form-group">
+        <input class="form-control" id="lineOne" type="text" name="lineOne" placeholder="Line One">
+      </div>
+
+      <div class="form-group">
+        <input class="form-control" id="lineTwo" type="text" name="lineTwo" placeholder="Line Two">
+      </div>
+
+      <div class="form-group">
+        <input class="form-control" id="lineThree" type="text" name="lineThree" placeholder="Line Three">
+      </div>
+
+      <button class="btn btn-primary" type="submit" name="button">Check My Haiku</button>
+      <button class="btn btn-danger" type="reset" name="button" id="resetButton">Clear All Fields</button>
+
+    </form>
+    <br>
+    <div id="results">
+    </div>
+  </div>
+</body>
 </html>
