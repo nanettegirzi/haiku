@@ -74,8 +74,19 @@ export class haikuChecker {
       if (word.includes("uo")) {
         syllableCount --;
       }
+      if (word.includes("ya")) {
+        syllableCount --;
+      }
+      if (word.includes("ye")) {
+        syllableCount --;
+      }
+      if ((word == "the") || word == "three" || word == "tree") {
+        syllableCount ++;
+      }
+      if (word.endsWith("e")) {
+        syllableCount --;
+      }
     });
     return syllableCount;
   }
-
 }
