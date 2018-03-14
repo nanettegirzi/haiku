@@ -80,7 +80,7 @@ export class haikuChecker {
       if (word.includes("ye")) {
         syllableCount --;
       }
-      if ((word == "the") || word == "three" || word == "tree") {
+      if ((word == "the") || word == "three" || word == "tree" || word == "me" || word == "see") {
         syllableCount ++;
       }
       if (word.endsWith("e")) {
