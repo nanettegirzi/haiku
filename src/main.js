@@ -31,7 +31,7 @@ $(function() {
       let lineOne = generateLine(5);
       let lineTwo = generateLine(7);
       let lineThree = generateLine(5);
-
+      $('#display-haiku').show();
       $('#display-haiku').html(`<p>${lineOne}</p><p>${lineTwo}</p><p>${lineThree}</p>`);
     });
 
