@@ -1,6 +1,7 @@
-import {haikuChecker} from './../src/haiku-checker.js';
+import {syllableCounter} from './../src/syllableCounter.js';
+import {haikuChecker} from './../src/haiku-checker.js'
 
-describe ('haikuChecker', function(){
+describe ('syllableCounter', function(){
   let testHaiku;
 
   beforeEach(function(){
@@ -14,8 +15,8 @@ describe ('haikuChecker', function(){
   })
 
   it('should test how many syllables are in each line', function(){
-    expect(testHaiku.syllableCounter(testHaiku.lineOne)).toEqual(5)
-    expect(testHaiku.syllableCounter(testHaiku.lineTwo)).toEqual(7)
-    expect(testHaiku.syllableCounter(testHaiku.lineThree)).toEqual(5)
+    expect(syllableCounter(testHaiku.lineOne)).toEqual(5)
+    expect(syllableCounter(testHaiku.lineTwo)).toEqual(7)
+    expect(syllableCounter(testHaiku.lineThree)).toEqual(5)
   })
 });
