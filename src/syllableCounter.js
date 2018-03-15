@@ -73,7 +73,13 @@ export function syllableCounter(line) {
     if (word.includes("ye")) {
       syllableCount --;
     }
-    if ((word == "the") || word == "three" || word == "tree" || word == "me" || word == "see") {
+    if (word.endsWith("es") && (word != "yes")) {
+      syllableCount --;
+    }
+    if (word.startsWith("y")) {
+      syllableCount --;
+    }
+    if ((word == "the") || word == "three" || word == "tree" || word == "me" || word == "see" || word == "yes") {
       syllableCount ++;
     }
     if (word.endsWith("e")) {

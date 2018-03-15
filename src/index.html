@@ -7,35 +7,63 @@
 <body>
   <div class="container">
     <div class="jumbotron">
-      <h1>Enter A Haiku</h1>
+      <h1>Haiku Suite</h1>
     </div>
-    <form id="checker-form">
+    <div class="row">
+      <div class="col-md-6">
 
-      <div class="form-group">
-        <input class="form-control" id="lineOne" type="text" name="lineOne" placeholder="Line One">
+
+        <form id="checker-form">
+
+          <div class="form-group">
+            <input class="form-control" id="lineOne" type="text" name="lineOne" placeholder="Line One">
+          </div>
+
+          <div class="form-group">
+            <input class="form-control" id="lineTwo" type="text" name="lineTwo" placeholder="Line Two">
+          </div>
+
+          <div class="form-group">
+            <input class="form-control" id="lineThree" type="text" name="lineThree" placeholder="Line Three">
+          </div>
+
+          <button class="btn btn-primary" type="submit" name="button">Check My Haiku</button>
+          <button class="btn btn-danger" type="reset" name="button" id="resetButton">Clear All Fields</button>
+        </form>
+        <hr>
+        <br>
+        </div>
+
+        <div class="col-md-6">
+
+          <div id="check-haiku">
+          </div>
+        </div>
+        <!-- /col -->
+
+    </div>
+    <div class="row">
+
+
+      <div class="col-md-12">
+
+        <button class="btn btn-info" id="make-haiku" type="button" name="button">Generate a Haiku</button>
+        <br>
+        <br>
+        <div id="display-haiku">
+
+        </div>
+        <!-- /col -->
       </div>
 
-      <div class="form-group">
-        <input class="form-control" id="lineTwo" type="text" name="lineTwo" placeholder="Line Two">
-      </div>
-
-      <div class="form-group">
-        <input class="form-control" id="lineThree" type="text" name="lineThree" placeholder="Line Three">
-      </div>
-
-      <button class="btn btn-primary" type="submit" name="button">Check My Haiku</button>
-      <button class="btn btn-danger" type="reset" name="button" id="resetButton">Clear All Fields</button>
-
-    </form>
+      <!-- /row -->
+    </div>
     <br>
-    <div id="check-haiku">
-    </div>
+    <br>
 
-    <button id="make-haiku" type="button" name="button">Generate a Haiku</button>
-    <div id="display-haiku">
-      <p>hello</p>
+    <div id="img">
+      <img src="https://images.unsplash.com/photo-1461727885569-b2ddec0c4328?ixlib=rb-0.3.5&s=7eaba82c815dd46bf6fa2fe2ec5fd642&auto=format&fit=crop&w=3449&q=80" width="1120" height="700">
     </div>
-
-  </div>
+</div>
 </body>
 </html>
