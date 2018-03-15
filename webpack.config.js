@@ -3,7 +3,6 @@ const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
-
 module.exports = {
   entry: './src/main.js',
   output: {
@@ -43,7 +42,7 @@ module.exports = {
           /node_modules/,
           /spec/
         ],
-        loader: "eslint-loader",
+        loader: "babel-loader",
         options: {
           presets: ['es2015']
         }
