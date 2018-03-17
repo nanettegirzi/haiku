@@ -11,6 +11,16 @@ This application checks whether or not the users input is a haiku or not. It als
 _ The home page of the application.
 ![Home](src/img/home.png)
 
+_ Results page when you have created a haiku
+![Home](src/img/congrats.png)
+
+_ Results page when it is not a haiku
+![Home](src/img/whoops.png)
+
+_ Click the Generate a Haiku Button to have the computer randomly generate a haiku for you
+![Home](src/img/generate.png)
+
+
 
 ## Setup/Installation Requirements
 
