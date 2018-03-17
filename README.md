@@ -33,16 +33,10 @@ Run the following commands in Terminal:
 
 ## Specifications
 
-#### Convert users age to seconds
-#### Return the age of a human in Mercury years
-#### Return the age of a human in Venus years
-#### Return the age of a human in Mars years
-#### Return the age of a human in Jupiter years
-#### Determine how many years a user has left to live on Earth
-#### Determine how many years a user has left to live on Mercury
-#### Determine how many years a user has left to live on Venus
-#### Determine how many years a user has left to live on Mars
-#### Determine how many years a user has left to live on Jupiter
+#### Determine if a users input is a haiku or not
+#### Return confirmation if entry is a haiku
+#### Return false if it is not a haiku, and lets the user know what is wrong and how to fix it
+#### Autogenerate a haiku
 
 ## Known Bugs
 
