@@ -2,7 +2,7 @@
 
 #### Epicodus Spring 2018
 
-#### By **Nanette Girzi**
+#### By **Nanette Girzi and Eric Swotinksy**
 
 ## Description
 
