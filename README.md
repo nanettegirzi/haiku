@@ -27,7 +27,7 @@ _ Click the Generate a Haiku Button to have the computer randomly generate a hai
 Run the following commands in Terminal:
 
 * $ git clone
-* $ cd galactic-age-calculator
+* $ cd haiku
 * $ npm install
 * $ npm run start
 
